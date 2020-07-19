@@ -2,3 +2,51 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+.carousel {
+    margin: 5rem;
+}
+
+.carousel-item h2 {
+    color: #ff2276;
+}
+
+.carousel-item button {
+    background-color: #ff2276;
+    padding: .3rem .7rem;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.carousel__area {
+    background-color: #ffe9e9;
+    padding: 1.5rem 3.5rem;
+    border-radius: 10px;
+}
+
+.carousel-indicators li {
+    background-color: #ff2276;
+}
+
+
+
+.category-watch, 
+.category-bag, 
+.category-shoe {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.category-watch {
+    background: linear-gradient(75deg, #ff9144, #ffcc3c);
+}
+
+.category-bag {
+    background: linear-gradient(75deg, #ff5495, #ff1870);   
+}
+
+.category-shoe {
+    background: linear-gradient(75deg, #3688fb, #3929f2);
+}
